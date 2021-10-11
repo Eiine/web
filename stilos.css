@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: lightpink;
+    color: linen;
+    background-image: url("imagenes/descarga.jpg") ;
+}
+
+#contenedor{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+    overflow: hidden;
+}
+header{
+    height: 150px;
+    background: black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+header h1{
+    font-style: inherit;
+    background-image: url("imagenes/baner.jpg") ;
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+    
+}
+
+nav ul li{
+    padding: 10px 70px;
+    display: block;
+    float: left;
+
+}
+
+ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: blanchedalmond;
+    
+}
+
+nav{
+    background: plum;
+    height: 60px;
+    border: 5px palevioletred solid ;
+    border-radius: 20px;
+    overflow: hidden;
+   
+}
+
+nav h2{
+    font-size: 50px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+.post{
+    width: 700px;
+    height: 500px;
+    float: left;
+    background: lightcoral;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.post h2{
+    font-size: 50px;
+    text-align: center;
+    line-height: 500px;
+}
+
+aside{
+    width: 250px;
+    height: 500px;
+    background: royalblue;
+    margin-top: 10px;
+    float: right;
+    border-radius: 20px;
+    overflow: hidden;
+}
+aside h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+
+footer{
+    background: slategray;
+    clear: both;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+footer a,p{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+
+}
